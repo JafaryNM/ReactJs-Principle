@@ -6,6 +6,10 @@ import Hello from './Components/Hello';
 function App() {
   return (
     <div className="App">
+
+      <Test name= "Regina"></Test>
+      <Test name="Lucy"></Test>
+      <Test name="Juliana"></Test>
      
      <Hello name=" Jafary" heroName="Engineer">
        <p>

@@ -1,15 +1,11 @@
-import React from 'react'
+import React, { Component} from "react";
 
-function test() {
-  return (
-    <div>
-      <h1> Test about react skills</h1>
-      <p>
-          this is paragraph test
-      </p>
-
-    </div>
-  )
+class Test extends Component{
+  render(){
+     
+    return <h1> Hello {this.props.name}</h1>
+     
+  }
 }
 
-export default test
+export default Test
