@@ -2,10 +2,15 @@
 import './App.css';
 import Test from './Components/Test';
 import Hello from './Components/Hello';
+import Message from './Components/Message';
 
 function App() {
   return (
     <div className="App">
+
+      <Message></Message>
+
+   
 
       <Test name= "Regina"></Test>
       <Test name="Lucy"></Test>
