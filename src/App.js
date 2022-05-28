@@ -6,8 +6,18 @@ import Hello from './Components/Hello';
 function App() {
   return (
     <div className="App">
-     <Test/>
-     <Hello/>
+     
+     <Hello name=" Jafary" heroName="Engineer">
+       <p>
+         This is children paragraph
+       </p>
+     </Hello>
+     <Hello name=" Lucy"  heroName="Developer">
+       
+       <button> Action</button>
+         
+     </Hello>
+     <Hello name= " Faith " heroName="Front-end Developer"></Hello>
 
       
     

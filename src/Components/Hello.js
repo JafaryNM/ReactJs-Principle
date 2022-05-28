@@ -1,13 +1,17 @@
 import React from 'react'
 
-const Hello = ()=> {
-  return (
-    <div>
-        <h1>
-            Hello Jafary
-        </h1>
-    </div>
-  )
+const Hello = (props)=> {
+  
+     
+          return(
+
+            <div>
+                <h1> Hello {props.name} {props.heroName} </h1>
+         {props.children}
+            </div>
+        
+    )
+    
 }
 
 export default Hello
